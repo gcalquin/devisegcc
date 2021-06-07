@@ -1,3 +1,42 @@
+LINK HEROKU
+
+https://devisegcc.herokuapp.com/
+
+Rutas
+
+                  Prefix Verb   URI Pattern                    Controller#Action
+             admin_index GET    /admin/index(.:format)         admin#index
+        new_user_session GET    /users/sign_in(.:format)       devise/sessions#new
+            user_session POST   /users/sign_in(.:format)       devise/sessions#create
+    destroy_user_session DELETE /users/sign_out(.:format)      devise/sessions#destroy
+       new_user_password GET    /users/password/new(.:format)  devise/passwords#new
+      edit_user_password GET    /users/password/edit(.:format) devise/passwords#edit
+           user_password PATCH  /users/password(.:format)      devise/passwords#update
+                         PUT    /users/password(.:format)      devise/passwords#update
+                         POST   /users/password(.:format)      devise/passwords#create
+cancel_user_registration GET    /users/cancel(.:format)        devise/registrations#cancel
+   new_user_registration GET    /users/sign_up(.:format)       devise/registrations#new
+  edit_user_registration GET    /users/edit(.:format)          devise/registrations#edit
+       user_registration PATCH  /users(.:format)               devise/registrations#update
+                         PUT    /users(.:format)               devise/registrations#update
+                         DELETE /users(.:format)               devise/registrations#destroy
+                         POST   /users(.:format)               devise/registrations#create
+                 stories GET    /stories(.:format)             stories#index
+                         POST   /stories(.:format)             stories#create
+               new_story GET    /stories/new(.:format)         stories#new
+              edit_story GET    /stories/:id/edit(.:format)    stories#edit
+                   story GET    /stories/:id(.:format)         stories#show
+                         PATCH  /stories/:id(.:format)         stories#update
+                         PUT    /stories/:id(.:format)         stories#update
+                         DELETE /stories/:id(.:format)         stories#destroy
+                    root GET    /                              stories#index
+              my_stories GET    /my_stories(.:format)          stories#my_stories
+               edit_user GET    /users/edit/:id(.:format)      admin#edit
+             update_user PATCH  /users/update/:id(.:format)    admin#update
+
+
+
+
 # Actividad Presencial I
 ## Autenticación Manual desde cero
 
