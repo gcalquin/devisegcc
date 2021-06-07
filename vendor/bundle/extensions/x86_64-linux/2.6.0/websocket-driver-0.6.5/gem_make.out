@@ -1,0 +1,15 @@
+current directory: /home/gcalquin/g44/proyectos/devise/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/gcalquin/.rvm/rubies/ruby-2.6.0/bin/ruby -I /home/gcalquin/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210607-13508-1s5fqyb.rb extconf.rb
+creating Makefile
+
+current directory: /home/gcalquin/g44/proyectos/devise/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/gcalquin/g44/proyectos/devise/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/gcalquin/g44/proyectos/devise/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20210607-13508-10w0ajm
