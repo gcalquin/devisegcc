@@ -1,3 +1,5 @@
+Proyecto realizado con rails 2.6.0
+
 LINK HEROKU
 
 https://devisegcc.herokuapp.com/
